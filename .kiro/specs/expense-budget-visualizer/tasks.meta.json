@@ -1,0 +1,583 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create semantic HTML structure in `index.html`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363743240
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363756319
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363927608
+      }
+    ],
+    "1.2 Build the expense input form fields in `index.html`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744205
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363759716
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363967024
+      }
+    ],
+    "1.3 Build the custom category form in `index.html`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744335
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363763240
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363970984
+      }
+    ],
+    "2.1 Define CSS custom properties (design tokens) and reset": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744452
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363978748
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364329204
+      }
+    ],
+    "2.2 Implement two-column desktop layout and single-column mobile layout": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744544
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364337178
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364884301
+      }
+    ],
+    "2.3 Style the header, cards, form controls, and buttons": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744606
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364340847
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364888602
+      }
+    ],
+    "2.4 Style the transaction list items, delete modal, and total spending display": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744667
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364347107
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364892616
+      }
+    ],
+    "3.1 Define module-level constants and in-memory state": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744760
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363982180
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364332932
+      }
+    ],
+    "3.2 Implement `StorageManager` object": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744821
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364351116
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364896890
+      }
+    ],
+    "3.3 Implement `Validator` object": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744882
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364355466
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364901309
+      }
+    ],
+    "4.1 Implement business logic utility functions": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744938
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364910946
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793365249346
+      }
+    ],
+    "4.3 Implement `renderTransactionList(transactions)` renderer": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363744999
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793365268783
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366230621
+      }
+    ],
+    "4.5 Implement `renderTotalSpending(total)` and `renderCategoryDropdown(allCategories)` renderers": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745057
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793365273659
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366236446
+      }
+    ],
+    "4.6 Implement `handleAddTransaction(event)` and form reset": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745136
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793365277323
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366258478
+      }
+    ],
+    "4.8 Implement `handleDeleteTransaction(id)`, delete modal, and confirm/cancel logic": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745202
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793365281277
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366268276
+      }
+    ],
+    "5. Checkpoint — core functionality": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745285
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366296750
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366471860
+      }
+    ],
+    "6.1 Implement `updateDashboard()` orchestration function": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745353
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366486503
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366532839
+      }
+    ],
+    "6.2 Implement `init()` bootstrap function": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745430
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366537896
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366605850
+      }
+    ],
+    "7.1 Implement `ChartManager.init(canvasId, categoryTotalsMap, isDark)`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745496
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366614600
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366673573
+      }
+    ],
+    "7.2 Implement `ChartManager.update(categoryTotalsMap)` and `ChartManager.updateTheme(isDark)`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745565
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367000848
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367042077
+      }
+    ],
+    "8. Checkpoint — chart integration": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745622
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367047594
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367115999
+      }
+    ],
+    "9.1 Implement `renderCategoryManager(customCategories)` renderer": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745684
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367127562
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367583598
+      }
+    ],
+    "9.2 Implement `handleAddCategory(event)` and `handleDeleteCategory(name)`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745773
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367135938
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367590402
+      }
+    ],
+    "10.1 Implement `getMonthlyGroups(transactions)` and `getMonthlySummaryStats(transactions)`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745838
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367141735
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367634265
+      }
+    ],
+    "10.3 Implement `renderMonthlySummary(monthlyGroups, selectedKey)` renderer": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745898
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367147086
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367640870
+      }
+    ],
+    "10.4 Implement `handleMonthChange(monthKey)` event handler": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363745957
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367153980
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367646966
+      }
+    ],
+    "11.1 Implement `handleThemeToggle()` and apply theme helper": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746014
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367651821
+      }
+    ],
+    "11.3 Verify chart contrast meets WCAG 2.1 AA in both themes": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746068
+      },
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367656370
+      }
+    ],
+    "12. Checkpoint — optional features": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746123
+      }
+    ],
+    "13.1 Run the complete property-based test suite in `test.html`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746183
+      }
+    ],
+    "13.2 Verify responsive layout at all breakpoints": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746240
+      }
+    ],
+    "13.3 Verify 200% zoom and browser zoom behavior": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746314
+      }
+    ],
+    "13.4 Verify zero JavaScript console errors in all target browsers": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746380
+      }
+    ],
+    "13.5 Verify localStorage persistence across page reloads": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746470
+      }
+    ],
+    "14. Write README.md": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746536
+      }
+    ],
+    "15. Final checkpoint": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363746604
+      }
+    ],
+    "1. Set up project structure and HTML shell": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793363971062
+      }
+    ],
+    "2. Implement base CSS layout and design tokens in `css/style.css`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364892669
+      }
+    ],
+    "3. Implement constants, state, StorageManager, and Validator in `js/script.js`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793364901381
+      }
+    ],
+    "4. Implement core transaction logic and renderers in `js/script.js`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366268348
+      }
+    ],
+    "6. Implement localStorage persistence, `updateDashboard`, and `init` in `js/script.js`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793366605931
+      }
+    ],
+    "7. Implement Chart.js integration (`ChartManager`) in `js/script.js`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367042161
+      }
+    ],
+    "9. Implement custom categories feature in `js/script.js`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367590458
+      }
+    ],
+    "10. Implement monthly summary feature in `js/script.js`": [
+      {
+        "executionId": "9e92fc03-dd24-4264-9204-29359117de38",
+        "chatSessionId": "sess_46f6ef3d-7ece-45f6-923c-bf191861c4b6",
+        "timestamp": 1793367647017
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense &amp; Budget Visualizer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header class="app-header">
+      <h1>Expense &amp; Budget Visualizer</h1>
+      <button id="theme-toggle" aria-label="Switch to dark mode">🌙 Dark Mode</button>
+    </header>
+
+    <main>
+      <div class="main-grid">
+
+        <!-- Left Column -->
+        <div class="left-column">
+
+          <!-- Total Spending Card -->
+          <div id="total-spending-card">
+            <p class="card-label">Total Spending</p>
+            <p id="total-spending">Rp 0</p>
+          </div>
+
+          <!-- Expense Input Form -->
+          <section id="form-section" aria-labelledby="form-heading">
+            <h2 id="form-heading">Add Expense</h2>
+            <form id="expense-form" novalidate>
+
+              <div class="form-group">
+                <label for="item-name">Item Name</label>
+                <input
+                  type="text"
+                  id="item-name"
+                  name="item-name"
+                  maxlength="100"
+                  required
+                  autocomplete="off"
+                  placeholder="e.g. Lunch"
+                  aria-describedby="item-name-error"
+                />
+                <span id="item-name-error" class="error-msg" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="amount">Amount (Rp)</label>
+                <input
+                  type="number"
+                  id="amount"
+                  name="amount"
+                  min="1"
+                  max="999999999"
+                  required
+                  placeholder="e.g. 25000"
+                  aria-describedby="amount-error"
+                />
+                <span id="amount-error" class="error-msg" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category"></select>
+              </div>
+
+              <button type="submit" id="add-btn">Add Transaction</button>
+
+            </form>
+          </section>
+
+          <!-- Custom Category Manager -->
+          <section id="category-section" aria-labelledby="category-heading">
+            <h2 id="category-heading">Manage Categories</h2>
+
+            <form id="custom-category-form" novalidate>
+              <div class="form-group">
+                <label for="new-category-name">New Category</label>
+                <input
+                  type="text"
+                  id="new-category-name"
+                  name="new-category-name"
+                  maxlength="50"
+                  placeholder="e.g. Health"
+                  aria-describedby="category-error"
+                />
+                <span id="category-error" class="error-msg" aria-live="polite"></span>
+              </div>
+              <button type="submit">Add Category</button>
+            </form>
+
+            <ul id="category-list" aria-label="Category list">
+              <!-- Category <li> items with delete buttons are rendered here by JS -->
+            </ul>
+          </section>
+
+        </div><!-- /.left-column -->
+
+        <!-- Right Column -->
+        <div class="right-column">
+
+          <!-- Transaction List -->
+          <section id="list-section" aria-labelledby="list-heading">
+            <h2 id="list-heading">Transactions</h2>
+            <ul id="transaction-list" aria-label="Transaction list" aria-live="polite">
+              <!-- Transaction items rendered by JS -->
+            </ul>
+          </section>
+
+          <!-- Pie Chart -->
+          <section id="chart-section" aria-labelledby="chart-heading">
+            <h2 id="chart-heading">Spending by Category</h2>
+            <div id="chart-container">
+              <canvas id="spending-chart" role="img" aria-label="Pie chart showing spending distribution by category"></canvas>
+              <p id="chart-empty-message">No spending data available yet.</p>
+            </div>
+          </section>
+
+          <!-- Monthly Summary -->
+          <section id="monthly-section" aria-labelledby="monthly-heading">
+            <h2 id="monthly-heading">Monthly Summary</h2>
+
+            <div class="form-group">
+              <label for="month-selector">Select Month</label>
+              <select id="month-selector" aria-label="Select a month to view summary">
+                <!-- Options rendered by JS -->
+              </select>
+            </div>
+
+            <div id="monthly-stats" aria-live="polite">
+              <!-- Monthly stats rendered by JS -->
+            </div>
+
+            <ul id="monthly-breakdown" aria-label="Monthly spending breakdown" aria-live="polite">
+              <!-- Breakdown items rendered by JS -->
+            </ul>
+
+          </section>
+
+        </div><!-- /.right-column -->
+
+      </div><!-- /.main-grid -->
+    </main>
+
+    <!-- Delete Confirmation Modal -->
+    <div
+      id="delete-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+      style="display: none;"
+    >
+      <div class="modal-inner">
+        <h2 id="modal-title">Confirm Deletion</h2>
+        <p id="modal-message">Are you sure you want to delete this transaction?</p>
+        <div class="modal-actions">
+          <button id="modal-confirm-btn">Delete</button>
+          <button id="modal-cancel-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chart.js CDN (must come before script.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <script src="js/script.js" defer></script>
+
+  </body>
+</html>
